@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Malla Curricular | Negocios Internacionales</title>
+
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <div>
+
+            <h1>Negocios Internacionales</h1>
+
+            <p class="subtitulo">
+                Malla curricular interactiva
+            </p>
+
+        </div>
+
+        <div class="progreso">
+
+            <div class="texto-progreso">
+
+                <span>Progreso</span>
+
+                <span id="porcentaje">
+                    0%
+                </span>
+
+            </div>
+
+            <div class="barra">
+
+                <div id="barraProgreso"></div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Aquí se crearán automáticamente los nueve semestres -->
+
+        <section id="malla" class="malla">
+
+        </section>
+
+    </main>
+
+
+    <section class="requisitos">
+
+        <h2>Requisitos Institucionales</h2>
+
+        <div class="contenedor-requisitos">
+
+            <div class="requisito" id="ingles">
+
+                <input type="checkbox" id="inglesB2">
+
+                <label for="inglesB2">
+
+                    Inglés B2
+
+                </label>
+
+            </div>
+
+            <div class="requisito" id="tercerIdioma">
+
+                <input type="checkbox" id="idioma3">
+
+                <label for="idioma3">
+
+                    Tercer idioma
+
+                </label>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+
+            El progreso se guarda automáticamente en este navegador.
+
+        </p>
+
+    </footer>
+
+
+    <!-- Base de datos de materias -->
+
+    <script src="materias.js"></script>
+
+    <!-- Lógica -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
