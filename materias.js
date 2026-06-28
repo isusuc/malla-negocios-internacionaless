@@ -567,13 +567,29 @@ SEMESTRE 6
 ==================================================== */
 
 {
-    id:"gestionCadena1",
-    nombre:"Gestión de la Cadena de Suministro Global I",
+    id:"analiticaNegocios",
+    nombre:"Analítica de Negocios",
     semestre:6,
     creditos:3,
     tipo:"normal",
-    requisitos:["gestionDistribucion"],
-    creditosMinimos:73,
+    requisitos:[
+        "estadistica",
+        "programacionNegocios"
+    ],
+    correquisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"gestionIntercultural",
+    nombre:"Gestión Intercultural",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:74,
     requiereBilinguismo:false
 },
 
@@ -583,44 +599,52 @@ SEMESTRE 6
     semestre:6,
     creditos:3,
     tipo:"normal",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:74,
+    requiereBilinguismo:false
+},
+
+{
+    id:"gestionCadena1",
+    nombre:"Gestión de la Cadena de Suministro Global I",
+    semestre:6,
+    creditos:2,
+    tipo:"normal",
     requisitos:[
-        "gerenciaComercial",
-        "proyecto4"
+        "gestionDistribucion"
+    ],
+    correquisitos:[
+        "proyecto5"
     ],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
 
 {
-    id:"gestionIntercultural",
-    nombre:"Gestión Intercultural",
+    id:"protocoloEmpresarial",
+    nombre:"Protocolo Empresarial",
     semestre:6,
-    creditos:2,
+    creditos:1,
     tipo:"normal",
-    requisitos:["estudiosInternacionales"],
-    creditosMinimos:0,
-    requiereBilinguismo:false
-},
-
-{
-    id:"legislacion2",
-    nombre:"Legislación de Comercio Exterior II",
-    semestre:6,
-    creditos:3,
-    tipo:"normal",
-    requisitos:["legislacion1"],
+    requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
 
 {
     id:"proyecto5",
-    nombre:"Proyecto 5",
+    nombre:"Proyecto 5: Cadenas de Suministro Globales",
     semestre:6,
     creditos:3,
     tipo:"normal",
-    requisitos:["proyecto4"],
-    creditosMinimos:73,
+    requisitos:[
+        "legislacion1",
+        "gestionDistribucion"
+    ],
+    correquisitos:[],
+    creditosMinimos:0,
     requiereBilinguismo:false
 },
 
@@ -631,6 +655,7 @@ SEMESTRE 6
     creditos:3,
     tipo:"complementaria",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -642,6 +667,7 @@ SEMESTRE 6
     creditos:3,
     tipo:"enfasis",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
