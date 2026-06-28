@@ -790,7 +790,7 @@ SEMESTRE 8
     ],
     creditosMinimos:111,
     requiereBilinguismo:true
-}
+},
 
 /* ====================================================
 SEMESTRE 9
