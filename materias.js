@@ -677,14 +677,17 @@ SEMESTRE 7
 ==================================================== */
 
 {
-    id:"negociacionContratos2",
+    id:"negociacionContratos",
     nombre:"Negociación de Contratos Internacionales",
     semestre:7,
     creditos:2,
     tipo:"normal",
-    requisitos:["proyecto3"],
+    requisitos:[
+        "proyecto3"
+    ],
+    correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -693,9 +696,12 @@ SEMESTRE 7
     semestre:7,
     creditos:1,
     tipo:"normal",
-    requisitos:["gestionIntercultural"],
+    requisitos:[
+        "gestionIntercultural"
+    ],
+    correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -704,9 +710,12 @@ SEMESTRE 7
     semestre:7,
     creditos:3,
     tipo:"normal",
-    requisitos:["estrategiaInternacional"],
+    requisitos:[
+        "estrategiaInternacional"
+    ],
+    correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -716,8 +725,11 @@ SEMESTRE 7
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[
+        "talento2"
+    ],
     creditosMinimos:90,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -731,8 +743,9 @@ SEMESTRE 7
         "gestionCadena1",
         "talento1"
     ],
+    correquisitos:[],
     creditosMinimos:100,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -742,8 +755,9 @@ SEMESTRE 7
     creditos:3,
     tipo:"enfasis",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
 
 {
@@ -753,10 +767,11 @@ SEMESTRE 7
     creditos:3,
     tipo:"enfasis",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:false
+    requiereBilinguismo:true
 },
-
+    
 /* ====================================================
 SEMESTRE 8
 ==================================================== */
