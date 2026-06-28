@@ -567,6 +567,17 @@ SEMESTRE 6
 ==================================================== */
 
 {
+    id:"gestionCadena1",
+    nombre:"Gestión de la Cadena de Suministro Global I",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["gestionDistribucion"],
+    creditosMinimos:73,
+    requiereBilinguismo:false
+},
+
+{
     id:"estrategiaInternacional",
     nombre:"Estrategia Internacional",
     semestre:6,
@@ -581,27 +592,12 @@ SEMESTRE 6
 },
 
 {
-    id:"gestionCadena1",
-    nombre:"Gestión de la Cadena de Suministro Global I",
-    semestre:6,
-    creditos:3,
-    tipo:"normal",
-    requisitos:[
-        "gestionDistribucion2"
-    ],
-    creditosMinimos:0,
-    requiereBilinguismo:false
-},
-
-{
     id:"gestionIntercultural",
     nombre:"Gestión Intercultural",
     semestre:6,
     creditos:2,
     tipo:"normal",
-    requisitos:[
-        "estudiosInternacionales"
-    ],
+    requisitos:["estudiosInternacionales"],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -612,49 +608,19 @@ SEMESTRE 6
     semestre:6,
     creditos:3,
     tipo:"normal",
-    requisitos:[
-        "legislacion1"
-    ],
-    creditosMinimos:0,
-    requiereBilinguismo:false
-},
-
-{
-    id:"negociacionContratos",
-    nombre:"Negociación de Contratos Internacionales",
-    semestre:6,
-    creditos:2,
-    tipo:"normal",
-    requisitos:[
-        "proyecto3"
-    ],
-    creditosMinimos:0,
-    requiereBilinguismo:false
-},
-
-{
-    id:"laboratorioMultilingue",
-    nombre:"Laboratorio Multilingüe",
-    semestre:6,
-    creditos:1,
-    tipo:"normal",
-    requisitos:[
-        "gestionIntercultural"
-    ],
+    requisitos:["legislacion1"],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
 
 {
     id:"proyecto5",
-    nombre:"Proyecto 5: Inteligencia de Mercados",
+    nombre:"Proyecto 5",
     semestre:6,
     creditos:3,
     tipo:"normal",
-    requisitos:[
-        "proyecto4"
-    ],
-    creditosMinimos:0,
+    requisitos:["proyecto4"],
+    creditosMinimos:73,
     requiereBilinguismo:false
 },
 
@@ -679,6 +645,7 @@ SEMESTRE 6
     creditosMinimos:0,
     requiereBilinguismo:false
 },
+    
 /* ====================================================
 SEMESTRE 7
 ==================================================== */
@@ -762,6 +729,26 @@ SEMESTRE 7
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
+}
+
+/* ====================================================
+SEMESTRE 8
+==================================================== */
+
+{
+    id:"practica",
+    nombre:"Período de Práctica",
+    semestre:8,
+    creditos:18,
+    tipo:"normal",
+    requisitos:[
+        "talento2",
+        "proyecto6",
+        "legislacion1",
+        "gestionCadena1"
+    ],
+    creditosMinimos:111,
+    requiereBilinguismo:true
 }
 ];
 
