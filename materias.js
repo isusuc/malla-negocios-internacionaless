@@ -503,7 +503,7 @@ SEMESTRE 5
     id:"electivaComplementaria1",
     nombre:"Materia Complementaria",
     semestre:5,
-    creditos:2,
+    creditos:3,
     tipo:"complementaria",
     requisitos:[],
     creditosMinimos:0,
