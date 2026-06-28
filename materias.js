@@ -791,5 +791,45 @@ SEMESTRE 8
     creditosMinimos:111,
     requiereBilinguismo:true
 }
+
+/* ====================================================
+SEMESTRE 9
+==================================================== */
+
+{
+    id:"trabajoGrado",
+    nombre:"Trabajo de Grado",
+    semestre:9,
+    creditos:6,
+    tipo:"normal",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:146,
+    requiereBilinguismo:true
+},
+
+{
+    id:"enfasis5",
+    nombre:"Línea de Énfasis",
+    semestre:9,
+    creditos:3,
+    tipo:"enfasis",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:true
+},
+
+{
+    id:"enfasis6",
+    nombre:"Línea de Énfasis",
+    semestre:9,
+    creditos:3,
+    tipo:"enfasis",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:true
+}
 ];
 
