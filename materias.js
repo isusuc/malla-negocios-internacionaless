@@ -190,7 +190,8 @@ SEMESTRE 2
     semestre:2,
     creditos:3,
     tipo:"normal",
-    requisitos:["comIntercultural"],
+    requisitos:[],
+    correquisitos:["comIntercultural"],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
