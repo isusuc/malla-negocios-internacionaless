@@ -247,7 +247,7 @@ SEMESTRE 2
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
-},];
+},
 
 /* ====================================================
 SEMESTRE 3
@@ -449,5 +449,8 @@ SEMESTRE 4
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
-},
+}
+
+];
+
 
