@@ -530,6 +530,17 @@ SEMESTRE 5
 },
 
 {
+    id:"materiaComplementaria1",
+    nombre:"Materia Complementaria",
+    semestre:5,
+    creditos:3,
+    tipo:"complementaria",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
     id:"nfi5",
     nombre:"NFI",
     semestre:5,
@@ -549,6 +560,6 @@ SEMESTRE 5
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
-}    
+}
 ];
 
