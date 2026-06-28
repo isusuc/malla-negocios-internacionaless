@@ -757,7 +757,7 @@ SEMESTRE 7
     requisitos:[],
     correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:true
+    requiereBilinguismo:false
 },
 
 {
@@ -769,7 +769,7 @@ SEMESTRE 7
     requisitos:[],
     correquisitos:[],
     creditosMinimos:0,
-    requiereBilinguismo:true
+    requiereBilinguismo:false
 },
     
 /* ====================================================
