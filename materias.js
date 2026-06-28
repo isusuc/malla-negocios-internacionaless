@@ -560,6 +560,208 @@ SEMESTRE 5
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
+},
+
+/* ====================================================
+SEMESTRE 6
+==================================================== */
+
+{
+    id:"estrategiaInternacional",
+    nombre:"Estrategia Internacional",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[
+        "gerenciaComercial",
+        "proyecto4"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"gestionCadena1",
+    nombre:"Gestión de la Cadena de Suministro Global I",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[
+        "gestionDistribucion2"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"gestionIntercultural",
+    nombre:"Gestión Intercultural",
+    semestre:6,
+    creditos:2,
+    tipo:"normal",
+    requisitos:[
+        "estudiosInternacionales"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"legislacion2",
+    nombre:"Legislación de Comercio Exterior II",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[
+        "legislacion1"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"negociacionContratos",
+    nombre:"Negociación de Contratos Internacionales",
+    semestre:6,
+    creditos:2,
+    tipo:"normal",
+    requisitos:[
+        "proyecto3"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"laboratorioMultilingue",
+    nombre:"Laboratorio Multilingüe",
+    semestre:6,
+    creditos:1,
+    tipo:"normal",
+    requisitos:[
+        "gestionIntercultural"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"proyecto5",
+    nombre:"Proyecto 5: Inteligencia de Mercados",
+    semestre:6,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[
+        "proyecto4"
+    ],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"materiaComplementaria2",
+    nombre:"Materia Complementaria",
+    semestre:6,
+    creditos:3,
+    tipo:"complementaria",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"enfasis2",
+    nombre:"Línea de Énfasis",
+    semestre:6,
+    creditos:3,
+    tipo:"enfasis",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+/* ====================================================
+SEMESTRE 7
+==================================================== */
+
+{
+    id:"negociacionContratos2",
+    nombre:"Negociación de Contratos Internacionales",
+    semestre:7,
+    creditos:2,
+    tipo:"normal",
+    requisitos:["proyecto3"],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"laboratorioMultilingue",
+    nombre:"Laboratorio Multilingüe",
+    semestre:7,
+    creditos:1,
+    tipo:"normal",
+    requisitos:["gestionIntercultural"],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"proyecto6",
+    nombre:"Proyecto 6: Plan de Internacionalización",
+    semestre:7,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["estrategiaInternacional"],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"competenciasEvaluativas",
+    nombre:"Competencias Evaluativas",
+    semestre:7,
+    creditos:1,
+    tipo:"normal",
+    requisitos:[],
+    creditosMinimos:90,
+    requiereBilinguismo:false
+},
+
+{
+    id:"talento2",
+    nombre:"Talento II",
+    semestre:7,
+    creditos:0,
+    tipo:"prueba",
+    requisitos:[
+        "legislacion1",
+        "gestionCadena1",
+        "talento1"
+    ],
+    creditosMinimos:100,
+    requiereBilinguismo:false
+},
+
+{
+    id:"enfasis3",
+    nombre:"Línea de Énfasis",
+    semestre:7,
+    creditos:3,
+    tipo:"enfasis",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"enfasis4",
+    nombre:"Línea de Énfasis",
+    semestre:7,
+    creditos:3,
+    tipo:"enfasis",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
 }
 ];
 
