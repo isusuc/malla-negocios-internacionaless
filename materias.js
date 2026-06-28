@@ -449,6 +449,77 @@ SEMESTRE 4
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
+},
+
+/* ====================================================
+SEMESTRE 5
+==================================================== */
+
+{
+    id:"gestionDistribucion2",
+    nombre:"Gestión de la Distribución Física Internacional II",
+    semestre:5,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["gestionDistribucion"],
+    creditosMinimos:62,
+    requiereBilinguismo:false
+},
+
+{
+    id:"finanzasInternacionales",
+    nombre:"Finanzas Internacionales",
+    semestre:5,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["fundamentosFinanzas"],
+    creditosMinimos:62,
+    requiereBilinguismo:false
+},
+
+{
+    id:"investigacionMercados",
+    nombre:"Investigación de Mercados Internacionales",
+    semestre:5,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["mercadeo"],
+    creditosMinimos:62,
+    requiereBilinguismo:false
+},
+
+{
+    id:"proyecto4",
+    nombre:"Proyecto 4: Estrategias de Internacionalización",
+    semestre:5,
+    creditos:3,
+    tipo:"normal",
+    requisitos:["proyecto3"],
+    creditosMinimos:62,
+    requiereBilinguismo:false
+},
+
+{
+    id:"electivaComplementaria1",
+    nombre:"Materia Complementaria",
+    semestre:5,
+    creditos:2,
+    tipo:"complementaria",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
+},
+
+{
+    id:"nfi5",
+    nombre:"NFI",
+    semestre:5,
+    creditos:3,
+    tipo:"nfi",
+    requisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:false
 }
+    
 ];
 
