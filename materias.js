@@ -729,7 +729,7 @@ SEMESTRE 7
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
-}
+},
 
 /* ====================================================
 SEMESTRE 8
