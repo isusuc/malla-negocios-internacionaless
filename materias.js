@@ -52,6 +52,7 @@ SEMESTRE 1
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:["tallerSalud"],
     creditosMinimos:0
 },
 
