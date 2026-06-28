@@ -449,8 +449,6 @@ SEMESTRE 4
     requisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
-}
-
-];
+},];
 
 
