@@ -788,40 +788,72 @@ SEMESTRE 8
         "legislacion1",
         "gestionCadena1"
     ],
+    correquisitos:[],
     creditosMinimos:111,
     requiereBilinguismo:true
 },
-
 /* ====================================================
 SEMESTRE 9
 ==================================================== */
 
 {
-    id:"trabajoGrado",
-    nombre:"Trabajo de Grado",
+    id:"negociacionInternacional",
+    nombre:"Negociación Internacional",
     semestre:9,
-    creditos:6,
+    creditos:2,
     tipo:"normal",
-    requisitos:[],
-    correquisitos:[],
-    creditosMinimos:146,
-    requiereBilinguismo:true
-},
-
-{
-    id:"enfasis5",
-    nombre:"Línea de Énfasis",
-    semestre:9,
-    creditos:3,
-    tipo:"enfasis",
-    requisitos:[],
+    requisitos:[
+        "negociacionContratos",
+        "practica"
+    ],
     correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:true
 },
 
 {
-    id:"enfasis6",
+    id:"gerenciaInternacional",
+    nombre:"Gerencia Internacional",
+    semestre:9,
+    creditos:3,
+    tipo:"normal",
+    requisitos:[
+        "proyecto6",
+        "practica"
+    ],
+    correquisitos:[],
+    creditosMinimos:0,
+    requiereBilinguismo:true
+},
+
+{
+    id:"proyectoEA",
+    nombre:"Proyecto EA",
+    semestre:9,
+    creditos:2,
+    tipo:"normal",
+    requisitos:[
+        "practica"
+    ],
+    correquisitos:[],
+    creditosMinimos:100,
+    requiereBilinguismo:true
+},
+
+{
+    id:"seminarioInternacional",
+    nombre:"Seminario Internacional",
+    semestre:9,
+    creditos:1,
+    tipo:"normal",
+    requisitos:[],
+    correquisitos:[],
+    creditosMinimos:100,
+    requiereBilinguismo:true
+},
+
+{
+    id:"enfasis5",
     nombre:"Línea de Énfasis",
     semestre:9,
     creditos:3,
