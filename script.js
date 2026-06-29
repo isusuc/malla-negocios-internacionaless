@@ -106,6 +106,14 @@ function cumpleRequisitos(materia){
 
     }
 
+    for(const correquisito of materia.correquisitos){
+
+    if(!materiaAprobada(correquisito)){
+        return false;
+    }
+
+}
+
     if(materia.requiereBilinguismo){
 
         if(!inglesB2 || !tercerIdioma){
