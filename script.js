@@ -195,6 +195,24 @@ function crearMaterias(){
 
             });
 
+            materia.correquisitos.forEach(req=>{
+
+    if(!materiaAprobada(req)){
+
+        const encontrada = materias.find(m=>m.id===req);
+
+        if(encontrada){
+
+            pendientes.push(
+                encontrada.nombre + " (Correquisito)"
+            );
+
+        }
+
+    }
+
+});
+
             if(materia.creditosMinimos>0){
 
                 pendientes.push(
