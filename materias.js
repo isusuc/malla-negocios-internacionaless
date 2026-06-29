@@ -42,6 +42,7 @@ SEMESTRE 1
     creditos:0,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -63,6 +64,7 @@ SEMESTRE 1
     creditos:0,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -73,6 +75,7 @@ SEMESTRE 1
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -83,6 +86,7 @@ SEMESTRE 1
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -93,6 +97,7 @@ SEMESTRE 1
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -103,6 +108,7 @@ SEMESTRE 1
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -113,6 +119,7 @@ SEMESTRE 1
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -123,6 +130,7 @@ SEMESTRE 1
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -133,6 +141,7 @@ SEMESTRE 1
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0
 },
 
@@ -147,6 +156,7 @@ SEMESTRE 2
     creditos:3,
     tipo:"normal",
     requisitos:["mat1"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -158,6 +168,7 @@ SEMESTRE 2
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -169,6 +180,7 @@ SEMESTRE 2
     creditos:3,
     tipo:"normal",
     requisitos:["negocios"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -180,6 +192,7 @@ SEMESTRE 2
     creditos:2,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -203,6 +216,7 @@ SEMESTRE 2
     creditos:1,
     tipo:"normal",
     requisitos:["busqueda"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -214,6 +228,7 @@ SEMESTRE 2
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -225,6 +240,7 @@ SEMESTRE 2
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -236,6 +252,7 @@ SEMESTRE 2
     creditos:0,
     tipo:"prueba",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -247,6 +264,7 @@ SEMESTRE 2
     creditos:0,
     tipo:"prueba",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -262,6 +280,7 @@ SEMESTRE 3
     creditos:3,
     tipo:"normal",
     requisitos:["economia"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -273,6 +292,7 @@ SEMESTRE 3
     creditos:3,
     tipo:"normal",
     requisitos:["infoFinanciera"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -288,6 +308,7 @@ SEMESTRE 3
         "lectura1",
         "escritura1"
     ],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -299,6 +320,7 @@ SEMESTRE 3
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -310,6 +332,7 @@ SEMESTRE 3
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -321,6 +344,7 @@ SEMESTRE 3
     creditos:3,
     tipo:"normal",
     requisitos:["mercadeo"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -335,6 +359,7 @@ SEMESTRE 3
         "comIntercultural",
         "proyecto1"
     ],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -346,6 +371,7 @@ SEMESTRE 3
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -361,6 +387,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"normal",
     requisitos:["talento1"],
+    correquisitos:[],
     creditosMinimos:46,
     requiereBilinguismo:false
 },
@@ -372,6 +399,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"normal",
     requisitos:["pensamientoHistorico"],
+    correquisitos:[],
     creditosMinimos:36,
     requiereBilinguismo:false
 },
@@ -383,6 +411,7 @@ SEMESTRE 4
     creditos:1,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -394,6 +423,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"normal",
     requisitos:["derechoComercio"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -405,6 +435,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"normal",
     requisitos:["mat2"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -416,6 +447,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"normal",
     requisitos:["infoFinanciera"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -427,6 +459,7 @@ SEMESTRE 4
     creditos:0,
     tipo:"prueba",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -438,6 +471,7 @@ SEMESTRE 4
     creditos:0,
     tipo:"prueba",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -449,6 +483,7 @@ SEMESTRE 4
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -464,6 +499,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"normal",
     requisitos:["fundamentosFinanzas"],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -475,6 +511,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:55,
     requiereBilinguismo:false
 },
@@ -489,6 +526,7 @@ SEMESTRE 5
         "pensamientoHistorico",
         "analisisGeopolitico"
     ],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -500,6 +538,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"normal",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:73,
     requiereBilinguismo:false
 },
@@ -514,6 +553,7 @@ SEMESTRE 5
         "estadistica",
         "comunicacionEscrita"
     ],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -541,6 +581,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"complementaria",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -552,6 +593,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"nfi",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
@@ -563,6 +605,7 @@ SEMESTRE 5
     creditos:3,
     tipo:"enfasis",
     requisitos:[],
+    correquisitos:[],
     creditosMinimos:0,
     requiereBilinguismo:false
 },
