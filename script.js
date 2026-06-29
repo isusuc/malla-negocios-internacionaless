@@ -175,25 +175,91 @@ function crearMaterias(){
 
             tarjeta.classList.add("bloqueada");
 
-            let mensaje="";
+const pendientes = [];
 
-            const pendientes=[];
+const info = [];
 
-            materia.requisitos.forEach(req=>{
+info.push(`<strong>${materia.nombre}</strong>`);
 
-                if(!materiaAprobada(req)){
+if(materia.creditos > 0){
+    info.push(`Créditos: ${materia.creditos}`);
+}
 
-                    const encontrada=materias.find(m=>m.id===req);
+if(materia.requisitos.length > 0){
 
-                    if(encontrada){
+    info.push("<br><strong>Prerrequisitos</strong>");
 
-                        pendientes.push(encontrada.nombre);
+    materia.requisitos.forEach(req=>{
 
-                    }
+        const encontrada = materias.find(m=>m.id===req);
 
-                }
+        if(encontrada){
 
-            });
+            const ok = materiaAprobada(req);
+
+            info.push(`${ok ? "✓" : "✗"} ${encontrada.nombre}`);
+
+            if(!ok){
+                pendientes.push(encontrada.nombre);
+            }
+
+        }
+
+    });
+
+}
+
+if(materia.correquisitos.length > 0){
+
+    info.push("<br><strong>Correquisitos</strong>");
+
+    materia.correquisitos.forEach(req=>{
+
+        const encontrada = materias.find(m=>m.id===req);
+
+        if(encontrada){
+
+            const ok = materiaAprobada(req);
+
+            info.push(`${ok ? "✓" : "✗"} ${encontrada.nombre}`);
+
+            if(!ok){
+                pendientes.push(encontrada.nombre);
+            }
+
+        }
+
+    });
+
+}
+
+if(materia.creditosMinimos > 0){
+
+    const ok = obtenerCreditos() >= materia.creditosMinimos;
+
+    info.push("<br><strong>Créditos mínimos</strong>");
+
+    info.push(`${ok ? "✓" : "✗"} ${materia.creditosMinimos}`);
+
+    if(!ok){
+        pendientes.push(`${materia.creditosMinimos} créditos`);
+    }
+
+}
+
+if(materia.requiereBilinguismo){
+
+    const ok = inglesB2 && tercerIdioma;
+
+    info.push("<br><strong>Bilingüismo</strong>");
+
+    info.push(`${ok ? "✓" : "✗"} Inglés B2 y tercer idioma`);
+
+    if(!ok){
+        pendientes.push("Bilingüismo");
+    }
+
+}
 
             materia.correquisitos.forEach(req=>{
 
@@ -233,7 +299,7 @@ function crearMaterias(){
 
             tooltip.className="tooltip";
 
-            tooltip.innerHTML=pendientes.join("<br>");
+            tooltip.innerHTML = info.join("<br>");
 
             tarjeta.appendChild(tooltip);
 
