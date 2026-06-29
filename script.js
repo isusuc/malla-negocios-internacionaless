@@ -367,4 +367,22 @@ function render(){
 
 }
 
+document.getElementById("reiniciar").addEventListener("click",()=>{
+
+    if(!confirm("¿Deseas borrar todo el progreso?")){
+        return;
+    }
+
+    progreso = {};
+
+    inglesB2 = false;
+
+    tercerIdioma = false;
+
+    guardarDatos();
+
+    render();
+
+});
+
 render();
