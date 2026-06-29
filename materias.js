@@ -527,6 +527,9 @@ SEMESTRE 5
     requisitos:[
         "proyecto3"
     ],
+    correquisitos:[
+    "estudiosInternacionales"
+],
     creditosMinimos:55,
     requiereBilinguismo:false
 },
