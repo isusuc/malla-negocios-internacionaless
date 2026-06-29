@@ -454,3 +454,55 @@ footer{
     transform:translateY(-2px);
 
 }
+
+/* ================================
+BOTÓN REINICIAR
+================================ */
+
+.acciones-progreso{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.btn-icono{
+
+    width:34px;
+
+    height:34px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#F8D9E8;
+
+    color:#666;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+    font-family:"Poppins",sans-serif;
+
+}
+
+.btn-icono:hover{
+
+    background:#efd0df;
+
+    transform:rotate(-90deg) scale(1.08);
+
+}
+
+.btn-icono:active{
+
+    transform:scale(.95);
+
+}
