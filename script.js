@@ -367,9 +367,15 @@ function render(){
 
 }
 
-document.getElementById("reiniciar").addEventListener("click",()=>{
+document
+.getElementById("reiniciar")
+.addEventListener("click",()=>{
 
-    if(!confirm("¿Deseas borrar todo el progreso?")){
+    const confirmar = confirm(
+        "¿Deseas borrar todo tu progreso?"
+    );
+
+    if(!confirmar){
         return;
     }
 
@@ -384,5 +390,4 @@ document.getElementById("reiniciar").addEventListener("click",()=>{
     render();
 
 });
-
 render();
